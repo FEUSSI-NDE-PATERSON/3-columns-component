@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-column-component</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class=" h-screen flex  flex-col  sm:flex-row  w-[100vw] mt-[50px] sm:w-[50vw] mx-auto  justify-center items-center">
+      <div class="flex  justify-evenly   flex-col bg-[#e38826] p-[20px] h-[300px] w-[80vw]">
+        <img src="/images/icon-sedans.svg" alt="" class="w-[40px]">
+        <p class="text-white text-2xl font-bold">SEDANS</p>
+        <P class="w-[200px] leading-5 text-[#ffffffa8] text-xs ">choose a sedan for its affordability and excellent fuel economy.Ideal for cruising in the city or on your next road trip</P>
+        <button class=" py-2 px-4 bg-white text-[#e38826] hover:border hover:border-2xl hover:bg-transparent hover:text-white font-bold rounded-full">Learn More</button>
+      </div>
+      <div class="flex justify-evenly   flex-col bg-[#006970] p-[20px] h-[300px] w-[80vw]">
+        <img src="/images/icon-suvs.svg" alt="" class="w-[40px]">
+        <p class="text-white text-2xl font-bold">SUVS</p>
+        <P class="w-[200px] leading-5 text-[#ffffffa8] text-xs ">Take an SUV for its spacious interior,power, and versatility.Perfect for your next family vacation and off-road adventure</P>
+        <button class=" py-2 px-4 bg-white text-[#006970] font-bold hover:border hover:border-2xl hover:bg-transparent hover:text-white rounded-full">Learn More</button>
+ 
+    </div>
+      <div class="flex  justify-evenly  flex-col bg-[#004241] p-[20px] h-[300px] w-[80vw]">
+        <img src="/images/icon-luxury.svg" alt="" class="w-[40px]">
+         <p class="text-white text-2xl font-bold">LUXURY</p>
+         <p class="w-[200px] leading-5 text-[#ffffffa8] text-xs ">Cruise in the best car brands without the bloated prices.Enjoy the enhanced comfort of a luxury rental and arrive in style</p>
+        <button class=" py-2 px-4 bg-white text-[#004241] font-bold hover:border hover:border-2xl hover:bg-transparent hover:text-white rounded-full">Learn More</button>
+      </div>
+    </div>
+    
+</body>
+</html>
